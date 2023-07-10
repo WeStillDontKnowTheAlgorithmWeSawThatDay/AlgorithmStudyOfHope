@@ -7,7 +7,6 @@ def find_combinations(numbers):
     for s in itertools.combinations(numbers, 6):
         print(*s)
 
-
 while True:
     array = input()
 
